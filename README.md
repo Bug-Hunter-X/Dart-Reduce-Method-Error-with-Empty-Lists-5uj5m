@@ -1,0 +1,3 @@
+# Dart Reduce Method and Empty Lists
+
+This example demonstrates an uncommon error that can occur when using the `reduce` method in Dart with an empty list. The `reduce` method expects at least one element in the list; otherwise, it throws a `StateError`. The solution involves handling this edge case by checking the list's length before applying `reduce` or using a different approach altogether (like using a `fold` method with an initial value).
